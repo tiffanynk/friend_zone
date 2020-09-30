@@ -10,7 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_09_29_171234) do
+ActiveRecord::Schema.define(version: 2020_09_30_123355) do
+
+  create_table "favorite_films", force: :cascade do |t|
+    t.integer "film_id"
+    t.integer "user_id"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["film_id"], name: "index_favorite_films_on_film_id"
+    t.index ["user_id"], name: "index_favorite_films_on_user_id"
+  end
 
   create_table "films", force: :cascade do |t|
     t.string "title"
@@ -19,7 +28,15 @@ ActiveRecord::Schema.define(version: 2020_09_29_171234) do
     t.string "producer"
     t.integer "release_date"
     t.integer "rt_score"
-    t.json "people"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string "name"
+    t.integer "age"
+    t.string "location"
+    t.string "favorite_quote"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
