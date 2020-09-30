@@ -20,5 +20,3 @@ films.each do |film|
     )
 end
 
-# binding.pry
-0
