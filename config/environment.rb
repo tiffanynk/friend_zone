@@ -8,4 +8,4 @@ Bundler.require
 
 require_all 'lib'
 
-# ActiveRecord::Base.logger = nil
+ActiveRecord::Base.logger = nil
