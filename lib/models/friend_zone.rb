@@ -1,3 +1,5 @@
+require "pry"
+
 class FriendZone
     attr_reader :user
 
@@ -34,3 +36,6 @@ class FriendZone
 
 end
 
+
+# binding.pry
+# 0

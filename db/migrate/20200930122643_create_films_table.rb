@@ -7,7 +7,7 @@ class CreateFilmsTable < ActiveRecord::Migration[6.0]
       table.string :producer
       table.integer :release_date
       table.integer :rt_score
-      
+
       table.timestamps
     end
   end
