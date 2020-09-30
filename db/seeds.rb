@@ -1,3 +1,8 @@
+FavoriteFilm.destroy_all
+Film.destroy_all
+User.destroy_all
+
+
 require 'pry'
 
 url = 'https://ghibliapi.herokuapp.com/films'
@@ -11,8 +16,7 @@ films.each do |film|
         director: film["director"],
         producer: film["producer"],
         release_date: film["release_date"],
-        rt_score: film["rt_score"],
-        people: film["people"]
+        rt_score: film["rt_score"]
     )
 end
 
