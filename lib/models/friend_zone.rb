@@ -11,6 +11,7 @@ class FriendZone
     #This runs the program and brings the user to a main menu
     def welcome_screen
        system("clear")
+       Ascii.banner
        #come back and see if we can make two lines
        welcome = @prompt.select('Welcome to Friend Zone! Meet new people who love Studio Ghibli Films too!'.light_blue) do |menu|
         menu.choice 'Log in' 

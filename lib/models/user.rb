@@ -35,13 +35,11 @@ class User < ActiveRecord::Base
         case new_menu
         when 1
             # USER CARD
-            puts @@existing_user.name
-            puts @@existing_user.age
-            puts @@existing_user.location
-            puts @@existing_user.favorite_quote
+            user_info
         when 2
-            puts "2"
-            # METHOD FOR TOP 10 FILMS
+            list = Film.order(rt_score: :desc).limit(10).pluck(:title)
+            list.each_with_index {|film, index| puts "#{index + 1}:".yellow + "#{film}"}
+            # binding.pry
         when 3
             puts "3"
             # METHOD FOR ALL FILMS
@@ -58,7 +56,11 @@ class User < ActiveRecord::Base
         # binding.pry
     end
 
-# binding.pry
-
+    def user_info
+        puts "Name: ".yellow + "#{@@existing_user.name}"
+        puts "Age: ".yellow + "#{@@existing_user.age}"
+        puts "Location: ".yellow + "#{@@existing_user.location}"
+        puts "Favorite Quote: ".yellow + "#{@@existing_user.favorite_quote}"
+    end
 
 end
