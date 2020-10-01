@@ -37,12 +37,11 @@ class User < ActiveRecord::Base
             # USER CARD
             user_info
         when 2
-            list = Film.order(rt_score: :desc).limit(10).pluck(:title)
-            list.each_with_index {|film, index| puts "#{index + 1}:".yellow + "#{film}"}
-            # binding.pry
+            # TOP 10 BASED ON RT
+            Film.top_ten_films
         when 3
-            puts "3"
             # METHOD FOR ALL FILMS
+            Film.all_film_menu
         when 4
             puts "4"
             # METHOD FOR SELECTING FAVORITES
