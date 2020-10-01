@@ -16,7 +16,7 @@ class Film < ActiveRecord::Base
         end
     end
 
-    def self.all_film_menu
+    def self.all_film_menu(user)
         Ascii.totoro
         prompt = TTY::Prompt.new(symbols: {marker:'♥︎'.magenta})
         film_choice = list_of_films.sort
@@ -28,15 +28,38 @@ class Film < ActiveRecord::Base
         puts "Producer: ".yellow + "#{@@found_film.producer}"
         puts "Release Date: ".yellow + "#{@@found_film.release_date}"
         puts "Rotten Tomato Score: ".yellow + "#{@@found_film.rt_score}"
+        more_options(user)
     end    
     
-    # def film_info
-    #     puts "Title: ".yellow + "#{@@found_film.title}"
-    #     puts "Description: ".yellow + "#{@@found_film.description}"
-    #     puts "Director: ".yellow + "#{@@found_film.director}"
-    #     puts "Producer: ".yellow + "#{@@found_film.producer}"
-    #     puts "Release Date: ".yellow + "#{@@found_film.release_date}"
-    #     puts "Rotten Tomato Score: ".yellow + "#{@@found_film.rt_score}"
-    # end
+    def self.more_options(user)
+        prompt = TTY::Prompt.new(symbols: {marker:'♥︎'.magenta})
+        user_choice = {
+            'Add to Favorites' => 1,
+            'Remove from Favorites' => 2,
+            'Update Favorites' => 3
+        }
+        
+        new_menu = prompt.select('Select an option.'.light_blue, user_choice)
+    
+        # REVISIT.
+        case new_menu
+        when 1
+            # FAVORITE THIS FILM
+            @@found_film.add_favorite_film(user)
+        when 2
+            # OPTION TO REMOVE CURRENTLY FAVORITED FILM
+            puts "Coming soon!"
+        when 3
+            # OPTION TO UPDATE FAVORITES FILMS
+            puts "Coming soon!"
+        end
+    end
+
+
+
+    def add_favorite_film(user)
+        FavoriteFilm.create(user_id: user.id, film_id: self.id)
+    end
     # binding.pry
+
 end

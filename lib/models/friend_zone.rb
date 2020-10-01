@@ -6,6 +6,7 @@ class FriendZone
     def initialize
         @prompt = TTY::Prompt.new(symbols: {marker:'♥︎'.magenta})
         @user = nil
+        # @film = nil
     end
 
     #This runs the program and brings the user to a main menu
@@ -33,6 +34,7 @@ class FriendZone
            'Bye now!'
        end
     end
+
 
 end
 

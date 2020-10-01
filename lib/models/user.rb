@@ -24,11 +24,9 @@ class User < ActiveRecord::Base
             'User Profile' => 1,
             'See Top 10 Films' => 2,
             'See All Films' => 3,
-            'Select Favorites' => 4,
-            'See My Favorites' => 5,
-            'Update My Favorites' => 6,
-            'Match with a Friend' => 7,
-            'Exit' => 8
+            'See My Favorites' => 4,
+            'Match with a Friend' => 5,
+            'Exit' => 6
         }
         
         new_menu = prompt.select('Select an option.'.light_blue, user_selection)
@@ -43,20 +41,15 @@ class User < ActiveRecord::Base
             Film.top_ten_films
         when 3
             # METHOD FOR ALL FILMS
-            Film.all_film_menu
+            Film.all_film_menu(@@existing_user)
         when 4
             puts "4"
-            # METHOD FOR SELECTING FAVORITES
-        when 5
-            puts "5"
             # METHOD FOR SEEING FAVORITES
-        when 6
-            puts "6"
-            # METHOD FOR UPDATING FAVORITES
-        when 7
+        when 5
             puts "Coming soon!"
-        when 8
-            puts "6Coming soon!"
+            # MATCH WITH A FRIEND
+        when 6
+            puts "Bye now!"
         end
         # binding.pry
     end
@@ -67,5 +60,10 @@ class User < ActiveRecord::Base
         puts "Location: ".yellow + "#{@@existing_user.location}"
         puts "Favorite Quote: ".yellow + "#{@@existing_user.favorite_quote}"
     end
+
+    # def add_favorite_film(flick)
+    #     FavoriteFilm.create(user: self, film: flick)
+    # end
+    # binding.pry
 
 end
