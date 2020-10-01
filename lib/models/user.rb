@@ -7,12 +7,12 @@ class User < ActiveRecord::Base
     def self.user_login
         prompt = TTY::Prompt.new
         user_input = prompt.ask('What is your name?')
-        @existing_user = all.find_by(name: user_input)
+        @@existing_user = all.find_by(name: user_input)
 
-        if @existing_user
+        if @@existing_user
             system("clear")
             puts 'Welcome back!'.yellow
-            @existing_user.user_menu
+            @@existing_user.user_menu
         else
             puts 'Sorry, you need to sign up!'
         end
@@ -34,8 +34,11 @@ class User < ActiveRecord::Base
         # ALTERNATIVE TO NESTING IN SEVERAL ELSEIFS
         case new_menu
         when 1
-            puts "1"
             # USER CARD
+            puts @@existing_user.name
+            puts @@existing_user.age
+            puts @@existing_user.location
+            puts @@existing_user.favorite_quote
         when 2
             puts "2"
             # METHOD FOR TOP 10 FILMS
@@ -52,6 +55,10 @@ class User < ActiveRecord::Base
             puts "6"
             # METHOD FOR UPDATING FAVORITES
         end
+        # binding.pry
     end
+
+# binding.pry
+
 
 end
