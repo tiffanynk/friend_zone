@@ -10,7 +10,6 @@ class User < ActiveRecord::Base
         @@existing_user = all.find_by(name: user_input)
 
         if @@existing_user
-            system("clear")
             puts 'Welcome back!'.yellow
             @@existing_user.user_menu
         else
@@ -19,6 +18,7 @@ class User < ActiveRecord::Base
     end
 
     def user_menu
+        Ascii.totoro
         prompt = TTY::Prompt.new(symbols: {marker:'♥︎'.magenta})
         user_selection = {
             'User Profile' => 1,
@@ -26,7 +26,9 @@ class User < ActiveRecord::Base
             'See All Films' => 3,
             'Select Favorites' => 4,
             'See My Favorites' => 5,
-            'Update Favorites' => 6
+            'Update My Favorites' => 6,
+            'Match with a Friend' => 7,
+            'Exit' => 8
         }
         
         new_menu = prompt.select('Select an option.'.light_blue, user_selection)
@@ -51,6 +53,10 @@ class User < ActiveRecord::Base
         when 6
             puts "6"
             # METHOD FOR UPDATING FAVORITES
+        when 7
+            puts "Coming soon!"
+        when 8
+            puts "6Coming soon!"
         end
         # binding.pry
     end
