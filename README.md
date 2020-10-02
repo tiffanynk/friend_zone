@@ -2,7 +2,7 @@
 
  <p>
 A community of people who love Studio Ghibli films!
-"Let's Lose Our Way, Together." ♥︎
+<br>"Let's Lose Our Way, Together." ♥︎</br>
 </p>
 
 <h2>General Info</h2>
