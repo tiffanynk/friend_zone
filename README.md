@@ -5,7 +5,7 @@ A community of people who love Studio Ghibli films!
 <h2>General Info</h2>
 <p>
 Studio Ghibli Film Finder & Friend Zone is a CLI application that allows users to create a profile, discover Studio Ghibli films and read their descriptions, add films to their favorites and view them.<br>
-<br>"Let's Lose Our Way, Together." ♥︎</br>
+<br>"Let's Lose Our Way, Together." :heart:</br>
 </p>
 
 <h2>Intro Video</h2>
@@ -78,17 +78,19 @@ end
 <h2>User Stories</h2>
 
 <ol>
-<li>As a user, you will be able to join the Studio Ghibli community.</li>
-<li>As a user, you will be able to see a curated list of the top 10 movie suggestions (based on Rotten Tomatoes scores).</li>
-<li>As a user, you will be able to explore the StudioGhibli film catalogue..</li>
-<li>As a user, you will be able to see and add movies to a list of your favorites.</li>
+ 
+<p>As a user, you will be able to:</p><br>
+<li>Join the Studio Ghibli community.</li>
+<li>See a curated list of the top 10 movie suggestions based on Rotten Tomatoes scores.</li>
+<li>Explore the Studio Ghibli film catalogue..</li>
+<li>See and add movies to a list of your favorites.</li>
 </ol>
 
 <h2>Status</h2>
 
 <p>We set out to match users based on favorite films. We would’ve liked to create an app that delivered on that.</p>
 
-With time, we would've liked to refactor our code and3 add features such as:
+With time, we would've liked to refactor our code and add features such as:
 <li>Updating Favorites</li>
 <li>Removing Favorites</li>
 <li>Match with a Friend</li>
