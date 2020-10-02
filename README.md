@@ -6,7 +6,6 @@ A community of people who love Studio Ghibli films!
 Studio Ghibli Film Finder & Friend Zone is a CLI application that allows users to create a profile, discover Studio Ghibli films and read their descriptions, add films to their favorites and view them.<br>
 <br>"Let's Lose Our Way, Together." ♥︎</br>
 </p>
-<p>abc</p>
 
 <h2>Intro Video</h2>
 
