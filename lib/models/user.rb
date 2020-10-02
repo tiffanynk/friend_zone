@@ -34,19 +34,20 @@ class User < ActiveRecord::Base
         # ALTERNATIVE TO NESTING IN SEVERAL ELSEIFS
         case new_menu
         when 1
-            # USER CARD
+            # USER PROFILE
             user_info
         when 2
             # TOP 10 BASED ON RT
             Film.top_ten_films
         when 3
-            # METHOD FOR ALL FILMS
+            # LISTS ALL FILMS
             Film.all_film_menu(@@existing_user)
         when 4
+            # LISTS FAVORITE FILMS
             list_favorite_films(@@existing_user)
         when 5
-            puts "Coming soon!"
             # MATCH WITH A FRIEND
+            puts "Coming soon!"
         when 6
             puts "Bye now!"
             return
@@ -63,7 +64,7 @@ class User < ActiveRecord::Base
 
     def list_favorite_films(user)
         #rewrite to make the list in new lines
-            puts user.films.map(&:title).join(' , ')
+            puts user.films.map(&:title).join(', ')
 
     end
     # binding.pry

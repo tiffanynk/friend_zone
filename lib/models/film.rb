@@ -15,7 +15,6 @@ class Film < ActiveRecord::Base
     end
 
     def self.all_film_menu(user)
-        Ascii.totoro
         prompt = TTY::Prompt.new(symbols: {marker:'♥︎'.magenta})
         film_choice = list_of_films.sort
         film_selection = prompt.select('Pick a movie to see more info!'.light_blue, film_choice)
