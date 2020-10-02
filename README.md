@@ -61,7 +61,7 @@ self.user_login
   end
 end
 ```
-
+<img src="https://i.ibb.co/xmZDVr0/Screen-Shot-2020-10-02-at-10-37-54-AM.png" alt="Welcome Screen" border="0">
 ``` ruby 
 def self.top_ten_films
  list = order(rt_score: :desc).limit(10).pluck(:title)
