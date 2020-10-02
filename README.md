@@ -13,7 +13,7 @@
 <h2>Technologies</h2>
 
 <ul>
- <li>a</li>
+ <li>Ruby</li>
  <li>a</li>
  <li>a</li>
  <li>a</li>
