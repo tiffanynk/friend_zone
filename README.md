@@ -40,7 +40,9 @@ You are now ready to start using the first iteration of Friend Zone! Run the app
 If you are a new user, please sign up by navigating to ‘Sign up’ and entering your information, then hit enter/return. Once you have finished signing up, please re-enter:<code>ruby runner.rb</code><br>
 For returning users, navigate to ‘Log in’ and enter your name.<br>
 For each menu, use the arrow keys to highlight an option and press enter to make your selection.
-<h3>Code Examples</h3>
+
+<h2>Code Examples</h2>
+
 <p>abc</p>
 
 <h2>User Stories</h2>
