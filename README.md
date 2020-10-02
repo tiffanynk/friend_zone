@@ -89,7 +89,8 @@ With time, we would've liked to refactor our code and3 add features such as:
 <p>abc</p>
 
 <h2>Contact</h2>
-[Jonathan Noriega]()
+<a href="https://www.linkedin.com/in/tiffany-kanjanabout/"><img src="https://user-images.githubusercontent.com/68958970/94945466-b2759800-04a8-11eb-9a67-57835dea515b.png" alt="Tiffany Kanjanabout" style="width:42px;height:42px;"></a>
+[Jonathan Noriega]()<br>
 [Tiffany Kanjanabout](https://www.linkedin.com/in/tiffany-kanjanabout/)
 
 <h2>API Reference</h2>
