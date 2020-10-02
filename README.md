@@ -17,7 +17,7 @@ A community of people who love Studio Ghibli films!
 <h2>Technologies</h2>
 
 <ul>
- <li>Ruby</li>
+ <li>Ruby - version 2.6.1</li>
  <li>a</li>
  <li>a</li>
  <li>a</li>
