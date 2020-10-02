@@ -14,7 +14,7 @@ Studio Ghibli Film Finder & Friend Zone is a CLI application that allows users t
 
 <h2>Intro Video</h2>
 
-<p>abc</p>
+[Youtube](https://youtu.be/4FPFncLoqTw)
 
 <h2>Technologies</h2>
 
