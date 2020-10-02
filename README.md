@@ -75,11 +75,12 @@ end
 <img src="https://i.ibb.co/xmZDVr0/Screen-Shot-2020-10-02-at-10-37-54-AM.png" alt="Welcome Screen" border="0"><br>
 
 <img src="https://i.ibb.co/LnQvTWm/Screen-Shot-2020-10-02-at-10-38-11-AM.png" alt="Log in screen">
+
 <h2>User Stories</h2>
 
+<h3>As a user, you will be able to:</h3>
+
 <ol>
- 
-<p>As a user, you will be able to:</p><br>
 <li>Join the Studio Ghibli community.</li>
 <li>See a curated list of the top 10 movie suggestions based on Rotten Tomatoes scores.</li>
 <li>Explore the Studio Ghibli film catalogue..</li>
