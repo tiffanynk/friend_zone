@@ -1,4 +1,6 @@
-Friend Zone 
+Ghibli Film Finer & Friend Zone 
+
+A community of people who love Studio Ghibli films!
 
 General Info
 
