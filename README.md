@@ -44,18 +44,20 @@ For returning users, navigate to ‘Log in’ and enter your name.<br><br>
 For each menu, use the arrow keys to highlight an option and press enter to make your selection.
 
 <h2>Code Examples</h2>
-<code>def self.user_login
-        Ascii.totoro
-        prompt = TTY::Prompt.new
-        user_input = prompt.ask('What is your name?')
-        @@existing_user = all.find_by(name: user_input)
-        if @@existing_user
-            puts 'Welcome back!'.yellow
-            @@existing_user.user_menu
-        else
-            puts 'Sorry, you need to sign up!'
-        end
-     end </code>
+```ruby
+self.user_login
+Ascii.totoro
+prompt = TTY::Prompt.new
+user_input = prompt.ask('What is your name?')
+@@existing_user = all.find_by(name: user_input)
+if @@existing_user
+    puts 'Welcome back!'.yellow
+    @@existing_user.user_menu
+else
+puts 'Sorry, you need to sign up!'
+end
+end
+```
     <br>
     <code>def self.top_ten_films
            list = order(rt_score: :desc).limit(10).pluck(:title)
