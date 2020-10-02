@@ -89,7 +89,7 @@ With time, we would've liked to refactor our code and3 add features such as:
 <p>abc</p>
 
 <h2>Contact</h2>
-<a href="https://www.linkedin.com/in/tiffany-kanjanabout/"><img src="https://user-images.githubusercontent.com/68958970/94945466-b2759800-04a8-11eb-9a67-57835dea515b.png" alt="Tiffany Kanjanabout" style="width:10px;height:10px;"></a>
+<a href="https://www.linkedin.com/in/tiffany-kanjanabout/"><img src="https://user-images.githubusercontent.com/68958970/94945883-595a3400-04a9-11eb-93f6-833a86525c6f.png" alt="Tiffany Kanjanabout" style="width:10px;height:10px;"></a>
 [Jonathan Noriega]()<br>
 [Tiffany Kanjanabout](https://www.linkedin.com/in/tiffany-kanjanabout/)
 
