@@ -1,3 +1,4 @@
+<img src="https://frpnet.net/wp-content/uploads/2014/04/studio-ghibli-banner.jpg" alt="Studio Ghibli Banner">
 <h1>Studio Ghibli Film Finder & Friend Zone</h1>
 A community of people who love Studio Ghibli films!
 <br></br>
@@ -10,6 +11,10 @@ Studio Ghibli Film Finder & Friend Zone is a CLI application that allows users t
 <h2>Intro Video</h2>
 
 <p>abc</p>
+
+<h2>Inspiration</h2>
+
+<p>We started our project with the hope of connecting people through a common interest. Studio Ghibli films are beloved by many, and we wanted to be able to pair users based on their common favorites. Through that connection, we wanted to be able to randomize movie suggestions based on films that were not listed in their favorites.</p>
 
 <h2>Technologies</h2>
 
@@ -83,10 +88,6 @@ With time, we would've liked to refactor our code and3 add features such as:
 <li>Removing Favorites</li>
 <li>Match with a Friend</li>
 <li>Once a user signs up, returning that user to log in screen.</li>
-
-<h2>Inspiration</h2>
-
-<p>abc</p>
 
 <h2>Contact</h2>
 <a href="https://www.linkedin.com/in/tiffany-kanjanabout/"><img src="https://user-images.githubusercontent.com/68958970/94946276-dc7b8a00-04a9-11eb-9431-366689b9fa06.png" alt="Tiffany Kanjanabout" style="width:10px;height:10px;"></a>Tiffany Kanjanabout<br>
