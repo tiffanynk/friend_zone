@@ -67,13 +67,12 @@ end
 
 <h2>User Stories</h2>
 
-<p>As a user, you will be able to join the Studio Ghibli community.</p>
-
-<p>As a user, you will be able to see a curated list of the top 10 movie suggestions (based on Rotten Tomatoes scores).</p>
-
-<p>As a user, you will be able to explore the StudioGhibli film catalogue..</p>
-
-<p>As a user, you will be able to see and add movies to a list of your favorites.</p>
+<ol>
+<li>As a user, you will be able to join the Studio Ghibli community.</li>
+<li>As a user, you will be able to see a curated list of the top 10 movie suggestions (based on Rotten Tomatoes scores).</li>
+<li>As a user, you will be able to explore the StudioGhibli film catalogue..</li>
+<li>As a user, you will be able to see and add movies to a list of your favorites.</li>
+</ol>
 
 <h2>Status</h2>
 
