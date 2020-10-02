@@ -2,7 +2,7 @@
 
  <p>A community of people who love Studio Ghibli films!</p>
 
-General Info
+<h2>General Info</h2>
 
 
 
