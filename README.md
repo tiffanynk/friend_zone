@@ -87,4 +87,4 @@ end
 <p>abc</p>
 
 <h2>API Reference</h2>
-[Studio Ghibli API](https://ghibliapi.herokuapp.com/).
+[Studio Ghibli API](https://ghibliapi.herokuapp.com/)
