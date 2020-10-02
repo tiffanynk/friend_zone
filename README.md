@@ -8,13 +8,13 @@ Studio Ghibli Film Finder & Friend Zone is a CLI application that allows users t
 <br>"Let's Lose Our Way, Together." :heart:</br>
 </p>
 
-<h2>Intro Video</h2>
-
-<p>abc</p>
-
 <h2>Inspiration</h2>
 
 <p>We started our project with the hope of connecting people through a common interest. Studio Ghibli films are beloved by many, and we wanted to be able to pair users based on their common favorites. Through that connection, we wanted to be able to randomize movie suggestions based on films that were not listed in their favorites.</p>
+
+<h2>Intro Video</h2>
+
+<p>abc</p>
 
 <h2>Technologies</h2>
 
