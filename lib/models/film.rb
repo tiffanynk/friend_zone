@@ -52,12 +52,12 @@ class Film < ActiveRecord::Base
             return
         when 2
             # OPTION TO REMOVE CURRENTLY FAVORITED FILM
-            puts "Coming soon!"
+            puts "Coming soon!".light_magenta
         when 3
             # OPTION TO UPDATE FAVORITES FILMS
-            puts "Coming soon!"
+            puts "Coming soon!".light_magenta
         when 4
-            puts 'You are back home!'
+            puts 'You are back home!'.light_cyan
             return
         end
         user.user_menu
@@ -65,7 +65,7 @@ class Film < ActiveRecord::Base
     
     def add_favorite_film(user)
         FavoriteFilm.create(user: user, film: self)
-        puts 'You added a movie to your to your Favorites.'
+        puts 'You added a movie to your to your Favorites.'.light_cyan
     end
     
     # binding.pry

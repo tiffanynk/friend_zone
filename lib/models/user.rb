@@ -47,9 +47,9 @@ class User < ActiveRecord::Base
             list_favorite_films(@@existing_user)
         when 5
             # MATCH WITH A FRIEND
-            puts "Coming soon!"
+            puts "Coming soon!".light_magenta
         when 6
-            puts "Bye now!"
+            puts "Bye now!".light_red
             return
         end
         user_menu
@@ -64,7 +64,7 @@ class User < ActiveRecord::Base
 
     def list_favorite_films(user)
         #rewrite to make the list in new lines
-            puts user.films.map(&:title).join(', ')
+            puts user.films.map(&:title).sort.uniq
 
     end
     # binding.pry
