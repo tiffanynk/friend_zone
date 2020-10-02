@@ -1,6 +1,9 @@
 <h1>Ghibli Film Finder & Friend Zone</h1>
 
- <p>A community of people who love Studio Ghibli films!</p>
+ <p>
+A community of people who love Studio Ghibli films!
+"Let's Lose Our Way, Together." <3
+</p>
 
 <h2>General Info</h2>
 
