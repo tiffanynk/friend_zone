@@ -56,10 +56,12 @@ end
 end
 ```
     <br>
-    <code>def self.top_ten_films
+``` ruby 
+    def self.top_ten_films
            list = order(rt_score: :desc).limit(10).pluck(:title)
             list.each_with_index {|film, index| puts "#{index + 1}:".yellow + "#{film}"}
-          end</code>
+          end
+```
 <p>abc</p>
 
 <h2>User Stories</h2>
