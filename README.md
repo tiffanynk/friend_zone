@@ -41,6 +41,7 @@ For returning users, navigate to ‘Log in’ and enter your name.<br><br>
 For each menu, use the arrow keys to highlight an option and press enter to make your selection.
 
 <h2>Code Examples</h2>
+
 ```ruby
 self.user_login
 Ascii.totoro
@@ -55,6 +56,7 @@ puts 'Sorry, you need to sign up!'
 end
 end
 ```
+
     <br>
 ``` ruby 
     def self.top_ten_films
@@ -62,7 +64,7 @@ end
             list.each_with_index {|film, index| puts "#{index + 1}:".yellow + "#{film}"}
           end
 ```
-<p>abc</p>
+
 
 <h2>User Stories</h2>
 
