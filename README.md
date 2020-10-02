@@ -74,7 +74,7 @@ end
 <h2>App Preview</h2>
 <img src="https://i.ibb.co/xmZDVr0/Screen-Shot-2020-10-02-at-10-37-54-AM.png" alt="Welcome Screen" border="0"><br>
 
-<img src="https://i.ibb.co/LnQvTWm/Screen-Shot-2020-10-02-at-10-38-11-AM.png" alt="Log in screen">
+<img src="https://i.ibb.co/QksvhH4/Screen-Shot-2020-10-02-at-10-52-47-AM.png" alt="Log in screen">
 
 <h2>User Stories</h2>
 
@@ -82,9 +82,9 @@ end
 
 <ol>
 <li>Join the Studio Ghibli community.</li>
-<li>See a curated list of the top 10 movie suggestions based on Rotten Tomatoes scores.</li>
-<li>Explore the Studio Ghibli film catalogue..</li>
-<li>See and add movies to a list of your favorites.</li>
+<li>See a curated list of the top 10 film suggestions based on Rotten Tomatoes scores.</li>
+<li>Explore the Studio Ghibli film catalogue.</li>
+<li>See and add films to a list of your favorites.</li>
 </ol>
 
 <h2>Status</h2>
