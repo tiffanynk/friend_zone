@@ -44,24 +44,24 @@ For each menu, use the arrow keys to highlight an option and press enter to make
 
 ```ruby
 self.user_login
-Ascii.totoro
-prompt = TTY::Prompt.new
-user_input = prompt.ask('What is your name?')
-@@existing_user = all.find_by(name: user_input)
-if @@existing_user
-    puts 'Welcome back!'.yellow
-    @@existing_user.user_menu
-else
-puts 'Sorry, you need to sign up!'
-end
+ Ascii.totoro
+ prompt = TTY::Prompt.new
+ user_input = prompt.ask('What is your name?')
+ @@existing_user = all.find_by(name: user_input)
+  if @@existing_user
+      puts 'Welcome back!'.yellow
+      @@existing_user.user_menu
+  else
+  puts 'Sorry, you need to sign up!'
+  end
 end
 ```
 
 ``` ruby 
-    def self.top_ten_films
-           list = order(rt_score: :desc).limit(10).pluck(:title)
-            list.each_with_index {|film, index| puts "#{index + 1}:".yellow + "#{film}"}
-          end
+def self.top_ten_films
+ list = order(rt_score: :desc).limit(10).pluck(:title)
+ list.each_with_index {|film, index| puts "#{index + 1}:".yellow + "#{film}"}
+end
 ```
 
 
@@ -85,3 +85,6 @@ end
 <h2>Contact</h2>
 
 <p>abc</p>
+
+<h2>API Reference</h2>
+[Studio Ghibli API](https://ghibliapi.herokuapp.com/).
