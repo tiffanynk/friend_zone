@@ -18,11 +18,14 @@ A community of people who love Studio Ghibli films!
 
 <ul>
  <li>Ruby - version 2.6.1</li>
- <li>Ruby - version 2.6.1</li>
- <li>Ruby - version 2.6.1</li>
- <li>Ruby - version 2.6.1</li>
- <li>Ruby - version 2.6.1</li>
- <li>Ruby - version 2.6.1</li>
+ <li>Active Record - version 6.0</li>
+ <li>Sinatra-activerecord - version 2.0</li>
+ <li>Rake - version 13.0</li>
+ <li>SQLite3 - version 1.4</li>
+ <li>Rest-client - version 2.1</li>
+ <li>JSON - version 2.3</li>
+ <li>tty-prompt - version 11.1</li>
+ <li>Colorize - version 0.8.1</li> 
 </ul>
 
 <h2>Setup</h2>
