@@ -18,10 +18,11 @@ A community of people who love Studio Ghibli films!
 
 <ul>
  <li>Ruby - version 2.6.1</li>
- <li>a</li>
- <li>a</li>
- <li>a</li>
- <li>a</li>
+ <li>Ruby - version 2.6.1</li>
+ <li>Ruby - version 2.6.1</li>
+ <li>Ruby - version 2.6.1</li>
+ <li>Ruby - version 2.6.1</li>
+ <li>Ruby - version 2.6.1</li>
 </ul>
 
 <h2>Setup</h2>
@@ -29,7 +30,7 @@ A community of people who love Studio Ghibli films!
 <h3>Code Examples</h3>
 <p>abc</p>
 
-<h2>Features</h2>
+<h2>User Stories</h2>
 
 <p>abc</p>
 
