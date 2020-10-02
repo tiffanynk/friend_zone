@@ -76,15 +76,21 @@ end
 
 <h2>Status</h2>
 
-<p>abc</p>
+<p>We set out to match users based on favorite films. We would’ve liked to create an app that delivered on that.</p>
+
+With time, we would've liked to refactor our code and3 add features such as:
+<li>Updating Favorites</li>
+<li>Removing Favorites</li>
+<li>Match with a Friend</li>
+<li>Once a user signs up, returning that user to log in screen.</li>
 
 <h2>Inspiration</h2>
 
 <p>abc</p>
 
 <h2>Contact</h2>
-
-<p>abc</p>
+[Jonathan Noriega]()
+[Tiffany Kanjanabout](https://www.linkedin.com/in/tiffany-kanjanabout/)
 
 <h2>API Reference</h2>
 [Studio Ghibli API](https://ghibliapi.herokuapp.com/)
