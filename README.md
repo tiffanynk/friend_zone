@@ -1,4 +1,4 @@
-<h1>Ghibli Film Finder & Friend Zone</h1>
+<h1>Studio Ghibli Film Finder & Friend Zone</h1>
 A community of people who love Studio Ghibli films!
 <br></br>
 <h2>General Info</h2>
@@ -67,7 +67,13 @@ end
 
 <h2>User Stories</h2>
 
-<p>abc</p>
+<p>As a user, you will be able to join the Studio Ghibli community.</p>
+
+<p>As a user, you will be able to see a curated list of the top 10 movie suggestions (based on Rotten Tomatoes scores).</p>
+
+<p>As a user, you will be able to explore the StudioGhibli film catalogue..</p>
+
+<p>As a user, you will be able to see and add movies to a list of your favorites.</p>
 
 <h2>Status</h2>
 
