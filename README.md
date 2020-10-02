@@ -29,18 +29,18 @@ A community of people who love Studio Ghibli films!
 </ul>
 
 <h2>Setup</h2>
-To run this project, install it locally by cloning this GitHub repository and opening it in your code editor.<br>
-From there, use the command to install all required Ruby gems: <code>bundle install</code><br>
-To create your local database for this project use the rake command: <code>rake db:migrate</code><br>
-Then to seed your database tables from the Studio Ghibli API, use the command: <code>rake db:seed</code><br>
-You are now ready to start using the first iteration of Friend Zone! Run the app by entering: <code>ruby runner.rb</code><br>
+To run this project, install it locally by cloning this GitHub repository and opening it in your code editor.<br><br>
+From there, use the command to install all required Ruby gems: <code>bundle install</code><br><br>
+To create your local database for this project use the rake command: <code>rake db:migrate</code><br><br>
+Then to seed your database tables from the Studio Ghibli API, use the command: <code>rake db:seed</code><br><br>
+You are now ready to start using the first iteration of Friend Zone! Run the app by entering: <code>ruby runner.rb</code><br><br>
 <i>*Please note that some features are still a work in progress.</i>
 
 <h2>Instructions</h2>
-If you are a new user, please sign up by navigating to ‘Sign up’ and entering your information, then hit enter/return.<br>
+If you are a new user, please sign up by navigating to ‘Sign up’ and entering your information, then hit enter/return.<br><br>
 Once you have finished signing up, please re-enter:
-<code>ruby runner.rb</code>
-For returning users, navigate to ‘Log in’ and enter your name.<br>
+<code>ruby runner.rb</code><br><br>
+For returning users, navigate to ‘Log in’ and enter your name.<br><br>
 For each menu, use the arrow keys to highlight an option and press enter to make your selection.
 
 <h2>Code Examples</h2>
