@@ -57,7 +57,6 @@ end
 end
 ```
 
-    <br>
 ``` ruby 
     def self.top_ten_films
            list = order(rt_score: :desc).limit(10).pluck(:title)
