@@ -12,7 +12,13 @@
 
 <h2>Technologies</h2>
 
-<p>abc</p>
+<ul>
+ <li>a</li>
+ <li>a</li>
+ <li>a</li>
+ <li>a</li>
+ <li>a</li>
+</ul>
 
 <h2>Setup</h2>
 
