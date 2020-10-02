@@ -65,7 +65,7 @@ class Film < ActiveRecord::Base
     
     def add_favorite_film(user)
         FavoriteFilm.create(user: user, film: self)
-        puts 'You added a movie to your to your Favorites.'.light_cyan
+        puts 'You added a movie to your Favorites.'.light_cyan
     end
     
     # binding.pry
