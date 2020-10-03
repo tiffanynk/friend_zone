@@ -35,20 +35,26 @@ class User < ActiveRecord::Base
         case new_menu
         when 1
             # USER PROFILE
+            system("clear")
             user_info
         when 2
             # TOP 10 BASED ON RT
+            system("clear")
             Film.top_ten_films
         when 3
             # LISTS ALL FILMS
+            system("clear")
             Film.all_film_menu(@@existing_user)
         when 4
             # LISTS FAVORITE FILMS
+            system("clear")
             list_favorite_films(@@existing_user)
         when 5
             # MATCH WITH A FRIEND
+            system("clear")
             puts "Coming soon!".light_magenta
         when 6
+            system("clear")
             puts "Bye now!".light_red
             return
         end
