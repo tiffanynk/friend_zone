@@ -11,6 +11,7 @@ class FriendZone
 
     #This runs the program and brings the user to a main menu
     def welcome_screen
+        system("clear")
         Ascii.logo
        #come back and see if we can make two lines
        welcome = @prompt.select('Welcome to Friend Zone! Meet new people who love Studio Ghibli Films too!'.light_blue) do |menu|
@@ -21,6 +22,7 @@ class FriendZone
 
        #when user makes a selection, it will take them to any of these options
        if welcome == 'Log in'
+        system("clear")
         User.user_login
        elsif welcome == 'Sign up'
         user_name = @prompt.ask('What is your name?', required: true) do |input|
