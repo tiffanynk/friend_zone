@@ -39,12 +39,13 @@ You are now ready to start using the first iteration of Friend Zone! Run the app
 <i>*Please note that some features are still a work in progress.</i>
 
 <h2>Instructions</h2>
-If you are a new user, please sign up by navigating to ‘Sign up’ and entering your information, then hit enter/return.<br><br>
-Once you have finished signing up, please re-enter:
-<code>ruby runner.rb</code><br><br>
-For returning users, navigate to ‘Log in’ and enter your name.<br><br>
-For each menu, use the arrow keys to highlight an option and press enter to make your selection.
-
+<ol>
+ <li>Explore our catalog of Denver's highly-rated restaurants.</li>
+ <li>If you're in a hurry & feeling spontaneous take a chance with our mysterEAT button.</li>
+ <li>Otherwise, use our search to narrow down the field of restaurant cards by cuisine.</li>
+ <li>Still undecided? Allow us to help you by making a restaurant suggestion via our state-of-the-art mysterEAT feature.</li>
+</ol>
+ 
 <h2>Code Examples</h2>
 
 ```ruby
